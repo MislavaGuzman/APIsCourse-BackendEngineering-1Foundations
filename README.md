@@ -20,13 +20,13 @@ npx ts-node --version
 npm uninstall ts-node typescript
 npm install --save-dev typescript@5.4.5 ts-node@10.9.2
 
-```bash```
 
+```
+
+```bash 
 ### Exec a ts file
 
-```bash```
 npx ts-node Hash_Maps_Sets/pair-sum-unsorted.ts
 
-```bash```
 
 ---
