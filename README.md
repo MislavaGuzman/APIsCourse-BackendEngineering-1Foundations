@@ -8,9 +8,9 @@ This repository aims to provide a comprehensive foundation of practice code for 
 ### Initial Setup Typescript 
 
 
-```bash```
-npm init -y
 
+```bash 
+npm init -y
 npm install --save-dev typescript ts-node @types/node
 npx tsc --init
 
