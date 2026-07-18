@@ -1,14 +1,27 @@
 // ==========================================
 // Booleans & Logical Operators
 // ==========================================
+/**
+ * True or false
+ * Comparación strict equality === and !== 
+    >, <, >=, <=
+    Logical Operator && || !
+ */
 
 
+// Example A: Basic Booleans & Strict Comparison
+const isConnectedToDb = true;
+const maxRetries = 3;
+const currentMaxRetries = "3";
 
+console.log(`Is strictly equal? ${maxRetries === Number(currentMaxRetries)}`);
 
+// Example B: Logical AND (&&) - Checking API Authorization
+const hasValidToken = true;
+const hasAdminRole = false;
 
-
-
-
+const canAccessAdminPanel = hasValidToken && hasAdminRole; 
+console.log(`Can Access admin panel? ${canAccessAdminPanel}`);
 
 // ==========================================
 //  TASKS

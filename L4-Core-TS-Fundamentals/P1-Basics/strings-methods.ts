@@ -5,13 +5,25 @@
 
 */
 
+// Example A: Template Literals & Basic Methods
+const courseFocus = "  backend engineering ";
+const language = "TypeScript";
+
+// Using .trim() to clean the string, .toUpperCase(), and template literals
+const welcomeMessage = `Welcome to the ${courseFocus.trim().toUpperCase()} course using ${language}!`;
+//console.log(welcomeMessage); 
 
 
+// Example B: Searching and Splitting Strings
 
+const techStack = "Node.js, Express, TypeScript, Oracle"
+//Search strings
+const usesExpress = techStack.includes("Python"); 
 
+//console.log(`Uses Express ${usesExpress}` );
 
-
-
+const stackArray = techStack.split(", ");
+console.log(stackArray);
 
 // ==========================================
 //  TASKS
