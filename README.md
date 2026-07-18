@@ -31,3 +31,17 @@ npx ts-node Hash_Maps_Sets/pair-sum-unsorted.ts
 
 
 ---
+
+## Lesson 4 Core TS Fundamentals P2
+
+###  Terminal Setup Workflow:
+```bash
+  npm init -y
+  npm i express cors dotenv
+  npm i -D typescript @types/express @types/cors nodemon eslint
+  tsc --init
+
+```
+
+
+     - Update tsconfig.json: "target": "es6", "outDir": "./dist", "sourceMap": true, "moduleResolution": "node"
