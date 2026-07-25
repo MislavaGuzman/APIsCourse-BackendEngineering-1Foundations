@@ -10,15 +10,49 @@ This repository aims to provide a comprehensive foundation of practice code for 
 
 
 ```bash 
+npx tsc --version
+npx ts-node --version
+
+### Creates Package JSON
 npm init -y
-npm install --save-dev typescript ts-node @types/node
+
+### Creates Package tsconfig.json
 npx tsc --init
 
 npx tsc --version
 npx ts-node --version
+##Dev Dependency 
+npm install --save-dev nodemon
+
+## Prod Dependency 
+## Allows Env config 
+npm install dotenv
+
+## Framework Prod
+## Enrutamiento config HTTPs
+npm install express
+
+## Prod Dependency 
+## Allow acces Cross Origin
+npm install cors 
+
+## Dev Dependency
+## Dictionary
+npm install -D typescript @types/express
+
+## Create two terminals
+### Execute TSC
+npm run watch
+
+### Executes Node
+npm run dev
+
+
+### Canbiar de version opcional
 
 npm uninstall ts-node typescript
 npm install --save-dev typescript@5.4.5 ts-node@10.9.2
+
 
 
 ```
@@ -37,9 +71,11 @@ npx ts-node Hash_Maps_Sets/pair-sum-unsorted.ts
 ###  Terminal Setup Workflow:
 ```bash
   npm init -y
+  npm install --save-dev nodemon
   npm i express cors dotenv
   npm i -D typescript @types/express @types/cors nodemon eslint
   tsc --init
+  tsc
 
 ```
 
