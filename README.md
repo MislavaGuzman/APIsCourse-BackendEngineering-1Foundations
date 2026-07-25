@@ -27,6 +27,8 @@ npm install --save-dev typescript@5.4.5 ts-node@10.9.2
 
 ```bash 
 npx ts-node Hash_Maps_Sets/pair-sum-unsorted.ts
+npx tsx L4-Core-TS-Fundamentals\P1-Basics\strings-methods.ts
+
 ```
 
 
