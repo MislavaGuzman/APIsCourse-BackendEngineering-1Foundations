@@ -8,4 +8,3 @@ export interface NasaApodResponse {
     title:           string;
     url:             string;
 }
-

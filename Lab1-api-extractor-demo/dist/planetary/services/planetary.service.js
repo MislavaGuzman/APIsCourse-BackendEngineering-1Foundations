@@ -9,9 +9,9 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.fetAstronomyPicture = fetAstronomyPicture;
+exports.fetchAstronomyPicture = fetchAstronomyPicture;
 const config_1 = require("../../config/config");
-function fetAstronomyPicture() {
+function fetchAstronomyPicture() {
     return __awaiter(this, void 0, void 0, function* () {
         const url = `${config_1.envs.NASA_BASE_URL}?api_key=${config_1.envs.NASA_API_KEY}`;
         const response = yield fetch(url);

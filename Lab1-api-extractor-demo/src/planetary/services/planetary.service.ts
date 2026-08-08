@@ -1,7 +1,7 @@
 import { envs } from '../../config/config';
 import { NasaApodResponse } from '../interface/planetary.interface';
 
-export async function fetAstronomyPicture(): Promise<NasaApodResponse> {
+export async function fetchAstronomyPicture(): Promise<NasaApodResponse> {
 
     const url = `${envs.NASA_BASE_URL}?api_key=${envs.NASA_API_KEY}`;
 
