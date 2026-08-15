@@ -1,1 +1,1 @@
-{"version":3,"file":"api-extractor-demo.routes.js","sourceRoot":"","sources":["../src/api-extractor-demo.routes.ts"],"names":[],"mappings":""}
+{"version":3,"file":"api-extractor-demo.routes.js","sourceRoot":"","sources":["../src/api-extractor-demo.routes.ts"],"names":[],"mappings":";;AAAA,qCAAiC;AACjC,uFAA8E;AAE9E,MAAM,MAAM,GAAG,IAAA,gBAAM,GAAE,CAAC;AAGxB,MAAM,CAAC,GAAG,CAAC,QAAQ,EAAE,oCAAa,CAAC,CAAC;kBACrB,MAAM"}

@@ -4,6 +4,6 @@ import { getSpaceToday  } from './planetary/controllers/planetary.controller';
 const router = Router();
 
 
-router.get('/endpoint-curso', getSpaceToday);
+router.get('/today', getSpaceToday);
 export default router;
 
