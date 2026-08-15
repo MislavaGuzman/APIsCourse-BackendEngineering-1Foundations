@@ -1,9 +1,14 @@
 // ==========================================
 // Template Literals
 // ==========================================
+const serverHost = "localhost";
+const serverPort = 300;
 
+const oldURL = "http://" + serverHost + ":" + serverPort + "/api/121"
 
+const newURL = `http://${serverHost}:${serverPort}/api123`
 
+console.log(`Dynamic URL: ${newURL}`)
 
 
 

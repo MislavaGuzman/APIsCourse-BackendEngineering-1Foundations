@@ -2,13 +2,30 @@
 // Type Conversion and Coercion
 // ==========================================
 
+const stringNum = "10";
+const actualNum = 5;
+// Implicita
+//console.log(`Coercion with  (+): ${stringNum + actualNum}`);
+//
+//
+//console.log(`Coercion with (-): ${stringNum - actualNum}`);
+//
+//console.log(`stringNum type is: ${typeof stringNum}`); 
+// Type conversion explicita
+
+const urlParamId = "404"; 
+const databaseId = Number(urlParamId)
+
+//console.log(`Converted ID type is: ${typeof databaseId}`); 
 
 
+const apiKey = "AK_23131DGASD6"
+const noKey = '' // falsy 
 
+// Double bang !!  ?? falsy 0 / ''  
 
-
-
-
+console.log(`Has API Key?: ${!!apiKey}`); // true
+console.log(`Has API Key?: (Empty): ${!!noKey}`); //false
 // ==========================================
 //  TASKS
 // ==========================================
