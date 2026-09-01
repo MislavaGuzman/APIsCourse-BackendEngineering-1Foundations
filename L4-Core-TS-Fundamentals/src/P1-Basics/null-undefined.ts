@@ -40,7 +40,7 @@ const emptyResponse = {
 
 console.log(apiResponse.data?.user?.name);
 
-console.log(emptyResponse.data?.user?.name);
+//console.log(emptyResponse.data?.user?.name);
 
 
 
