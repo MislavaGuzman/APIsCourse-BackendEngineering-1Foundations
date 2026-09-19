@@ -19,5 +19,24 @@ export function apiIds() {
         console.log(`Extracting Ids ${userIds[i]}`);
 }
 
-    
+}
+
+
+// Task 1: Use a 'for' loop to iterate over an array of extracted user IDs and format them into a database query string.
+  //  const userIds: number[] = [101, 102, 103, 104];
+  // Declare a for loop 
+  // Transverse the array 
+  // In a console log show the following message  SELECT * FROM users WHERE id = 
+  /// declare a query const 
+  // And display the id in the array.
+
+export function ejemploApi() {
+    const userIds: number[] = [101, 102, 103, 104];
+    for (let i = 0; i < userIds.length; i++ ) {
+        
+        const query = `SELECT * FROM users WHERE id = ${userIds[i]}`;
+        console.log(`Executing ${query}`);
+
+    }
+
 }
